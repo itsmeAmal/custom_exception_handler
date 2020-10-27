@@ -24,6 +24,7 @@ public class CustomException {
             CustomException.testMethod();
         } catch (SQLException e) {
             throw new UnauthorizedOriginException("Faile to execute TestMethod");
+            //This server is not authorized to access this resource 
         }
     }
 }
